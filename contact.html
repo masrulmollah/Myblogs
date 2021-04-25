@@ -48,139 +48,52 @@
     </div>
   </nav>
     
-  <!-- Page Content -->
+  <!-- Main Content -->
   <div class="container">
-
     <div class="row">
-
-      <!-- Blog Entries Column -->
-      <div class="col-md-8">
-
-        <h1 class="my-4">All blogs
-          <small>for your support</small>
-        </h1>
-
-        <!-- Blog Post -->
-        <div class="card mb-4">
-          <img class="card-img-top" src="image-1-data science.jpg" width="500" height="200" alt="Card image cap">
-          <div class="card-body">
-            <h2 class="card-title">Importance of data science</h2>
-            <p class="card-text">Data Science enables enterprises to measure, track, and record performance metrics for facilitating enterprise-wide enhanced decision making. Companies can analyze trends to make critical decisions to engage customers better, enhance company performance, and increase profitability.</p>
-            <a href="pdf-1-Data_Science_the_impact_of_statistics.pdf" class="btn btn-primary">Read More &rarr;</a>
-          </div>
-          <div class="card-footer text-muted">
-            Posted on April 25, 2021 by
-            <a href="https://masrulmollah.github.io/net/">Masrul Mollah</a>
-          </div>
-        </div>
-
-        <!-- Blog Post -->
-        <div class="card mb-4">
-          <img class="card-img-top" src="image-1-machine learning.jpg" width="500" height="200" alt="Card image cap">
-          <div class="card-body">
-            <h2 class="card-title">Importance of Machine Learning</h2>
-            <p class="card-text">Machine Learning is the core subarea of artificial intelligence. It makes computers get into a self-learning mode without explicit programming. When fed new data, these computers learn, grow, change, and develop by themselves</p>
-            <a href="pdf-2-Modern_Applications_of_Machine_Learning.pdf" class="btn btn-primary">Read More &rarr;</a>
-          </div>
-          <div class="card-footer text-muted">
-            Posted on April 25, 2021 by
-            <a href="https://masrulmollah.github.io/net/">Masrul Mollah</a>
-          </div>.pdf
-        </div>
-
-        <!-- Blog Post -->
-        <div class="card mb-4">
-          <img class="card-img-top" src="image-3-deep learning.jpg" width="500" height="200" alt="Card image cap">
-          <div class="card-body">
-            <h2 class="card-title">Importance of Deep Learning</h2>
-            <p class="card-text">Why is Deep Learning Important? The ability to process large numbers of features makes deep learning very powerful when dealing with unstructured data. However, deep learning algorithms can be overkill for less complex problems because they require access to a vast amount of data to be effective.</p>
-            <a href="pdf-3-Deep_Learning_The_Impact_on_Future_eLearning.pdf" class="btn btn-primary">Read More &rarr;</a>
-          </div>
-          <div class="card-footer text-muted">
-            Posted on April 25, 2021 by
-            <a href="https://masrulmollah.github.io/net/">Masrul Mollah</a>
-          </div>
-        </div>
-
-        <!-- Pagination -->
-        <ul class="pagination justify-content-center mb-4">
-          <li class="page-item">
-            <a class="page-link" href="#">&larr; Older</a>
-          </li>
-          <li class="page-item disabled">
-            <a class="page-link" href="#">Newer &rarr;</a>
-          </li>
-        </ul>
-
-      </div>
-
-      <!-- Sidebar Widgets Column -->
-      <div class="col-md-4">
-
-        <!-- Search Widget -->
-        <div class="card my-4">
-          <h5 class="card-header">Search</h5>
-          <div class="card-body">
-            <div class="input-group">
-              <input type="text" class="form-control" placeholder="Search for...">
-              <span class="input-group-append">
-                <button class="btn btn-secondary" type="button">Go!</button>
-              </span>
+      <div class="col-lg-8">
+        <p>Want to get in touch? Fill out the form below to send me a message and I will get back to you as soon as possible!</p>
+        <!-- Contact Form - Enter your email address on line 19 of the mail/contact_me.php file to make this form work. -->
+        <!-- WARNING: Some web hosts do not allow emails to be sent through forms to common mail hosts like Gmail or Yahoo. It's recommended that you use a private domain email address! -->
+        <!-- To use the contact form, your site must be on a live web host with PHP! The form will not work locally! -->
+        <form name="sentMessage" id="contactForm" novalidate>
+          <div class="control-group">
+            <div class="form-group floating-label-form-group controls">
+              <label>Name</label>
+              <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+              <p class="help-block text-danger"></p>
             </div>
           </div>
-        </div>
-
-        <!-- Categories Widget -->
-        <div class="card my-4">
-          <h5 class="card-header">Categories</h5>
-          <div class="card-body">
-            <div class="row">
-              <div class="col-lg-6">
-                <ul class="list-unstyled mb-0">
-                  <li>
-                    <a href="datascience.html">Data Science</a>
-                  </li>
-                  <li>
-                    <a href="tour.html">Tour.Travel</a>
-                  </li>
-                  <li>
-                    <a href="#">Accounting</a>
-                  </li>
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <ul class="list-unstyled mb-0">
-                  <li>
-                    <a href="#">Taxation</a>
-                  </li>
-                  <li>
-                    <a href="#">Fianace</a>
-                  </li>
-                  <li>
-                    <a href="#">Tutorials</a>
-                  </li>
-                </ul>
-              </div>
+          <div class="control-group">
+            <div class="form-group floating-label-form-group controls">
+              <label>Email Address</label>
+              <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+              <p class="help-block text-danger"></p>
             </div>
           </div>
-        </div>
-
-        <!-- Side Widget -->
-        <div class="card my-4">
-          <h5 class="card-header">Advertisement</h5>
-            <img class="card-img-top" src="image-5-add-1.jpg" width="100" height="150" alt="Card image cap">
-          <div class="card-body">
-            প্রিয়জনের কাছে টাকা পাঠানো কেবল লেনদেন নয়, এ যেন মানুষের আবেগ আর অনুভূতির প্রকাশ। আর টাকা পাঠানোর প্রতিটি মুহুর্তকে আরো আনন্দময় করতে বিকাশ তার ৫ কোটি গ্রাহকের পরিবারের সবার জন্য নিয়ে এলো ৫ টি প্রিয় নাম্বারে ফ্রি টাকা পাঠানোর সুবিধা। বিকাশ অ্যাপ থেকে বা *২৪৭# ডায়াল করে আপনার ৫টি প্রিয় নাম্বার সেট করুন আর প্রতি মাসে ২৫,০০০ টাকা পর্যন্ত সেন্ড মানি করুন ফ্রি।
+          <div class="control-group">
+            <div class="form-group col-xs-12 floating-label-form-group controls">
+              <label>Phone Number</label>
+              <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
+              <p class="help-block text-danger"></p>
+            </div>
           </div>
-        </div>
-
+          <div class="control-group">
+            <div class="form-group floating-label-form-group controls">
+              <label>Message</label>
+              <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <br>
+          <div id="success"></div>
+          <button type="submit" class="btn btn-primary" id="sendMessageButton">Send</button>
+        </form>
       </div>
-
     </div>
-    <!-- /.row -->
-
   </div>
-  <!-- /.container -->
+
+  
 
   <!-- Footer -->
   <footer class="py-5 bg-dark">
